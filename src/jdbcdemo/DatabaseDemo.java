@@ -15,7 +15,7 @@ public class DatabaseDemo {
 	static final String databaseUrl = "jdbc:sqlite:sample.db";
 	
 	// A shared connection to the database.
-	// In well designed code, this will not be static.
+	// In well-designed code, this will not be static.
 	static Connection connection = null;
 	
 	// Scanner for reading console input
